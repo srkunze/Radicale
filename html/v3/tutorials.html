@@ -33,7 +33,7 @@
   }
   @media print {
   pre > code.sourceCode { white-space: pre-wrap; }
-  pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+  pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
   }
   pre.numberSource code
     { counter-reset: source-line 0; }
@@ -338,7 +338,7 @@ installer, check the "Add Python to PATH" box and click on "Install
 now". Wait a couple of minutes, it's done!</p>
 <p>Launch a command prompt and type:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode powershell"><code class="sourceCode powershell"><span id="cb7-1"><a aria-hidden="true" href="./tutorials.html#cb7-1" tabindex="-1"></a>python <span class="op">-</span>m pip install <span class="op">--</span>upgrade https<span class="op">://</span>github<span class="op">.</span><span class="fu">com</span><span class="op">/</span>Kozea<span class="op">/</span>Radicale<span class="op">/</span>archive<span class="op">/</span>master<span class="op">.</span><span class="fu">tar</span><span class="op">.</span><span class="fu">gz</span></span>
-<span id="cb7-2"><a aria-hidden="true" href="./tutorials.html#cb7-2" tabindex="-1"></a>python <span class="op">-</span>m radicale <span class="op">--</span>storage-filesystem-folder<span class="op">=~/</span>radicale<span class="op">/</span>collections <span class="op">--</span>auth-type none</span></code></pre></div>
+<span id="cb7-2"><a aria-hidden="true" href="./tutorials.html#cb7-2" tabindex="-1"></a>python <span class="op">-</span>m radicale <span class="op">--</span>storage<span class="op">-</span>filesystem<span class="op">-</span>folder<span class="op">=~/</span>radicale<span class="op">/</span>collections <span class="op">--</span>auth<span class="op">-</span>type none</span></code></pre></div>
 <section class="level5" id="common">
 <h5>Common <a class="headerlink" href="#common">&para;</a></h5>
 <p>Success!!! Open <a href="http://localhost:5232">http://localhost:5232</a> in your browser!
